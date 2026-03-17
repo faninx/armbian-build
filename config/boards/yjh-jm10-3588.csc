@@ -6,7 +6,7 @@ BOARD_MAINTAINER="r-mt"
 KERNEL_TARGET="legacy,vendor"
 BOOTCONFIG="rk3588_defconfig"
 
-JM10_DSA_88E6390="yes"
+#JM10_DSA_88E6390="yes"
 #如果不想用交换机 把JM10_DSA_88E6390="yes"前面加#注释掉
 #硬改dsa交换机 设置 JM10_DSA_88E6390="yes" 内核版本这里使用vendor 6.1x, legacy 5.10内核未测试
 #./compile.sh build BOARD=yjh-jm10-3588 BRANCH=legacy BUILD_DESKTOP=no BUILD_MINIMAL=yes  KERNEL_CONFIGURE=no RELEASE=jammy DOWNLOAD_MIRROR=china MAINLINE_MIRROR=tuna GITHUB_MIRROR=ghproxy
